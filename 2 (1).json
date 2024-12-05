@@ -1,0 +1,14 @@
+{
+  "startSymbol": "S",
+  "terminals": [
+    "a",
+    "b"
+  ],
+  "nonTerminals": [
+    "A",
+    "B",
+    "S"
+  ],
+  "rules": "S -> aB | bA\nA -> a | aS | bAA\nB -> b | bS | aBB",
+  "inputString": "aabbabba"
+}
